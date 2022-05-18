@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+.nullam {
+  width: 280px;
+  height: 308px;
+  background-color: #FAFAFA;
+  padding: 43px 66px 26px 66px;
+}
+
+.nullam__p {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 255%;
+  /* or 31px */
+  text-align: center;
+  color: #000000;
+  background-color: #fff;
+}
