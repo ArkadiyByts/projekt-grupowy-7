@@ -1,0 +1,139 @@
+
+// h1,
+// h4 {
+//     text-decoration: none;
+
+//     ul {
+//         list-style-type: none;
+//         list-style: none;
+//         text-decoration: none;
+//     }
+
+//     li {
+//         list-style: none;
+//         text-decoration: none;
+//         list-style-type: none;
+//     }
+// }
+
+.how-its-done__section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'DM Sans';
+    list-style: none;
+    background-color: #FFF5F6;
+}
+
+.how-its-done__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titan One';
+    font-weight: 400;
+    text-align: center;
+}
+
+.how-its-done__header--h4 {
+    font-size: 18px;
+    color: #FFA5BA;
+}
+
+.how-its-done__header--h1 {
+    color: #D41443;
+    font-size: 34px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.how-its-done__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.how-its-done__img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-its-done__main--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 220px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.how-its-done__main--background {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    max-width: 320px;
+    background-image: url('/src/images/background-milk-320x133@1x.webp');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-its-done__main--background {
+    display: inline-flex;
+
+}
+
+.how-its-done__main--text>span {
+    margin-bottom: 47px;
+}
+
+.how-its-done__main--button {
+    background-color: #FFFFFF;
+    border: transparent;
+    width: 176px;
+    height: 44px;
+    text-align: center;
+    border-radius: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'DM Sans';
+    color: #D41443;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #D41342;
+        color: #FFFFFF;
+    }
+}
+
+.how-its-done__list {
+    font-family: 'DM Sans';
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 38px;
+    max-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:last-child {
+        margin-bottom: 97px;
+    }
+
+    &>ul {
+        list-style: none;
+        list-style-type: none;
+    }
+}
+
+.how-its-done__list--h1 {
+    font-family: 'Titan One';
+    font-size: 36px;
+    font-weight: 400;
+    color: #D41443;
+}
