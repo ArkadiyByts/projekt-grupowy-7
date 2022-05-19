@@ -5,20 +5,36 @@
  */
 .how-its-done__section {
   width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: "DM Sans";
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'DM Sans';
   list-style: none;
   background-color: #FFF5F6;
 }
 
 .how-its-done__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Titan One";
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Titan One';
   font-weight: 400;
   text-align: center;
 }
@@ -36,9 +52,16 @@
 }
 
 .how-its-done__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .how-its-done__img {
@@ -47,9 +70,16 @@
 }
 
 .how-its-done__main--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: 220px;
   text-align: justify;
   margin-left: auto;
@@ -59,11 +89,15 @@
 }
 
 .how-its-done__main--background {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100vw;
   max-width: 320px;
-  background-image: url("/src/images/background-milk-320x133@1x.webp");
+  background-image: url(../images/background-milk-320x133@1x.webp);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 320px;
@@ -72,6 +106,8 @@
 }
 
 .how-its-done__main--background {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
@@ -88,9 +124,10 @@
   border-radius: 22px;
   margin-left: auto;
   margin-right: auto;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   color: #D41443;
 }
+
 .how-its-done__main--button:hover {
   cursor: pointer;
   background-color: #D41342;
@@ -98,7 +135,7 @@
 }
 
 .how-its-done__list {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 38px;
@@ -106,16 +143,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .how-its-done__list:last-child {
   margin-bottom: 97px;
 }
+
 .how-its-done__list > ul {
   list-style: none;
   list-style-type: none;
 }
 
 .how-its-done__list--h1 {
-  font-family: "Titan One";
+  font-family: 'Titan One';
   font-size: 36px;
   font-weight: 400;
   color: #D41443;
@@ -129,7 +168,7 @@
 }
 
 .nullam__p {
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
