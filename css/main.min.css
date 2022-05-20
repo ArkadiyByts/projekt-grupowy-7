@@ -4,20 +4,36 @@
  * Wszystkie partials podłączamy tutaj.
  */
 h1,
-h4 {
-  text-decoration: none;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
-h1 ul,
-h4 ul {
-  list-style-type: none;
-  list-style: none;
-  text-decoration: none;
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
-h1 li,
-h4 li {
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+ul {
   list-style: none;
+}
+
+li {
   text-decoration: none;
-  list-style-type: none;
 }
 
 .how-its-done__section {
@@ -29,6 +45,11 @@ h4 li {
   list-style: none;
   background-color: #FFF5F6;
 }
+@media (min-width: 768px) {
+  .how-its-done__section {
+    max-width: 727px;
+  }
+}
 
 .how-its-done__header {
   display: flex;
@@ -38,11 +59,22 @@ h4 li {
   font-family: "Titan One";
   font-weight: 400;
   text-align: center;
+  margin-bottom: 26px;
+}
+@media (min-width: 768px) {
+  .how-its-done__header {
+    margin-bottom: 50px;
+  }
 }
 
 .how-its-done__header--h4 {
   font-size: 18px;
   color: #FFA5BA;
+}
+@media (min-width: 768px) {
+  .how-its-done__header--h4 {
+    font-size: 26px;
+  }
 }
 
 .how-its-done__header--h1 {
@@ -51,11 +83,25 @@ h4 li {
   max-width: 200px;
   text-align: center;
 }
+@media (min-width: 768px) {
+  .how-its-done__header--h1 {
+    max-width: 429px;
+    font-size: 48px;
+  }
+}
 
 .how-its-done__main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  .how-its-done__main {
+    max-width: 772px;
+    flex-direction: row;
+    justify-items: center;
+  }
 }
 
 .how-its-done__img {
@@ -80,20 +126,34 @@ h4 li {
   justify-content: center;
   width: 100vw;
   max-width: 320px;
-  background-image: url("/src/images/background-milk-320x133@1x.webp");
+  background-image: url(../images/background-milk-320x133@1x.webp);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 320px;
   margin-left: auto;
   margin-right: auto;
 }
+@media (min-width: 768px) {
+  .how-its-done__main--background {
+    background-image: none;
+  }
+}
 
 .how-its-done__main--background {
   display: inline-flex;
 }
 
+.how-its-done__main--text {
+  margin-bottom: 39px;
+}
+
 .how-its-done__main--text > span {
   margin-bottom: 47px;
+}
+@media (min-width: 768px) {
+  .how-its-done__main--text > span {
+    margin-bottom: 66px;
+  }
 }
 
 .how-its-done__main--button {
@@ -113,6 +173,11 @@ h4 li {
   background-color: #D41342;
   color: #FFFFFF;
 }
+@media (min-width: 768px) {
+  .how-its-done__main--button {
+    margin-left: 0;
+  }
+}
 
 .how-its-done__list {
   font-family: "DM Sans";
@@ -129,6 +194,12 @@ h4 li {
 .how-its-done__list > ul {
   list-style: none;
   list-style-type: none;
+}
+@media (min-width: 768px) {
+  .how-its-done__list {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .how-its-done__list--h1 {

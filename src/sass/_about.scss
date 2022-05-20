@@ -24,6 +24,9 @@ h4 {
     font-family: 'DM Sans';
     list-style: none;
     background-color: #FFF5F6;
+    @media (min-width: 768px) {
+        max-width: 727px;
+    }
 }
 
 .how-its-done__header {
@@ -34,11 +37,18 @@ h4 {
     font-family: 'Titan One';
     font-weight: 400;
     text-align: center;
+    margin-bottom: 26px;
+    @media (min-width: 768px) {
+        margin-bottom: 50px;
+    }
 }
 
 .how-its-done__header--h4 {
     font-size: 18px;
     color: #FFA5BA;
+    @media (min-width: 768px) {
+            font-size: 26px;
+        }
 }
 
 .how-its-done__header--h1 {
@@ -46,12 +56,22 @@ h4 {
     font-size: 34px;
     max-width: 200px;
     text-align: center;
+    @media (min-width: 768px) {
+        max-width: 429px;
+        font-size: 48px;
+    }
 }
 
 .how-its-done__main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100vw;
+    @media (min-width: 768px) {
+        max-width: 772px;
+        flex-direction: row;
+        justify-items: center;
+    }
 }
 
 .how-its-done__img {
@@ -76,21 +96,30 @@ h4 {
     justify-content: center;
     width: 100vw;
     max-width: 320px;
-    background-image: url('/src/images/background-milk-320x133@1x.webp');
+    // background-image: url('/src/images/background-milk-320x133@1x.webp');
+    background-image: url(../images/background-milk-320x133@1x.webp);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 320px;
     margin-left: auto;
     margin-right: auto;
+    @media (min-width: 768px) {
+        background-image: none;
+    }
 }
 
 .how-its-done__main--background {
     display: inline-flex;
 
 }
-
+.how-its-done__main--text {
+    margin-bottom: 39px;
+}
 .how-its-done__main--text>span {
     margin-bottom: 47px;
+    @media (min-width: 768px) {
+        margin-bottom: 66px;
+    }
 }
 
 .how-its-done__main--button {
@@ -110,6 +139,9 @@ h4 {
         background-color: #D41342;
         color: #FFFFFF;
     }
+    @media (min-width: 768px) {
+        margin-left: 0;
+    }
 }
 
 .how-its-done__list {
@@ -128,6 +160,10 @@ h4 {
     &>ul {
         list-style: none;
         list-style-type: none;
+    }
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
     }
 }
 
