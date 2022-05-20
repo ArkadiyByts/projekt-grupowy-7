@@ -3,6 +3,13 @@
  * Wszystkie partials podłączamy tutaj.
  */
 
+
+
+
+@import './base/common';
+@import './base/section';
+@import './base/container';
+
 @import './products';
 @import './about';
 @import './opinions';
