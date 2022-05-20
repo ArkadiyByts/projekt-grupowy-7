@@ -3,5 +3,15 @@
  * Wszystkie partials podłączamy tutaj.
  */
 
+
+@import './utils/variables';
+
+@import './base/common';
+@import './base/section';
+@import './base/container';
+
 @import './header';
+@import './products';
+@import './about';
 @import './opinions';
+@import './footer';
