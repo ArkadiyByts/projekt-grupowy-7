@@ -3,7 +3,6 @@
  * Wszystkie partials podłączamy tutaj.
  */
 
-
 @import './utils/variables';
 
 @import './base/common';
@@ -11,6 +10,7 @@
 @import './base/container';
 
 @import './header';
+@import './header-menu';
 @import './products';
 @import './about';
 @import './opinions';
