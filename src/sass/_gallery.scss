@@ -1,0 +1,17 @@
+.gallery__img {
+    max-width: 100%;
+    height: auto;
+    transform: translateY(12px);
+}
+
+@media screen and (min-width: 768px) {
+    .gallery__img {
+        transform: translateY(25px);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .gallery__img {
+        transform: translateY(40px);
+    }
+}
