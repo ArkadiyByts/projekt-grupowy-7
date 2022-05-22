@@ -1,16 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-body {
+footer {
   font-family: var(--txt-font);
 }
 
