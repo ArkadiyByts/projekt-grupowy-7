@@ -3,29 +3,37 @@
   height: 308px;
   background-color: var(--opininons-bg);
   margin: 0 auto;
-  padding: 43px 66px 26px 66px;
+  padding: 43px 50px 26px 50px;
+  position: relative;
 }
 
 .nullam__p {
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
+  padding-left: 16px;
+  padding-right: 16px;
   font-weight: 500;
   font-size: 12px;
   line-height: 255%;
   text-align: center;
   color: #000000;
   position: relative;
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--opininons-bg),
+    var(--opininons-bg) 29px,
+    #e1e1e1 29px,
+    #e1e1e1 30px
+  );
 }
-.nullam__p::after {
-  content: '';
+/*.nullam__p::before {
+  content: '"';
   position: absolute;
-  display: inline-block;
-  height: 2px;
-  width: auto;
-  background-color: red;
-  color: red;
-  margin: 0 auto;
-}
+  font-size: 150px;
+  top: 40px;
+  left: 20px;
+  color: #e1e1e1;
+}*/
 .quote {
   align-content: center;
   margin-bottom: 18px;
