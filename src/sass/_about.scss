@@ -225,19 +225,20 @@
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
+    padding-bottom: 97px;
     @media (min-width: 768px) {
             display: flex;
             flex-direction: row;
             padding-left: 36px;
             width: 100vw;
             max-width: 772px;
-            padding-bottom: 246px;
+            padding-bottom: 140px;
         }
     @media (min-width: 1280px) {
             padding-left: 115px;
             padding-right: 115px;
             max-width: 1280px;
-            padding-bottom: 310px;
+            padding-bottom: 139px;
     }
 
     &>ul {
