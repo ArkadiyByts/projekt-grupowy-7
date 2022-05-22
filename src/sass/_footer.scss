@@ -37,7 +37,7 @@ footer {
       justify-content: right;
     }
 
-    &-items {
+    &-item {
       list-style: none;
       margin-left: 28px;
     }
@@ -57,22 +57,21 @@ footer {
     &-link:hover {
       background-color: var(--dark-pink);
     }
+  }
+  &__contact {
+    margin-top: 46px;
+    font-family: 'DM Sans';
+    font-size: 12px;
+    line-height: 1.86;
+    color: black;
+    text-align: right;
 
-    &__contact {
-      margin-top: 46px;
-      font-family: 'DM Sans';
-      font-size: 12px;
+    & a {
+      text-decoration: none;
+      color: var(--dark-pink);
+      font-size: 13px;
       line-height: 1.86;
-      color: black;
       text-align: right;
-
-      & a {
-        text-decoration: none;
-        color: var(--dark-pink);
-        font-size: 13px;
-        line-height: 1.86;
-        text-align: right;
-      }
     }
   }
 }
@@ -93,8 +92,8 @@ footer {
   height: 89px;
   color: #907e82;
   border-top: 1px solid #e1e1e1;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 @media screen and (min-width: 768px) {
@@ -104,8 +103,9 @@ footer {
 
     &__txt {
       padding-left: 36px;
-      padding-right: 65px;
+      padding-right: 50px;
       margin-bottom: 91px;
+      width: 400px;
 
       &-light {
         font-size: 26px;
@@ -137,6 +137,7 @@ footer {
 @media screen and (min-width: 1200px) {
   .footer__txt {
     padding-left: 114px;
+    width: 700px;
 
     &-light {
       font-size: 30px;
