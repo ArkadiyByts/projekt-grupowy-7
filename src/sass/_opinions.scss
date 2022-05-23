@@ -59,7 +59,6 @@
 .opinions__photo {
   align-items: center;
   margin: 0 auto;
-  padding-top: 80px;
   padding-bottom: 29px;
 }
 .opinions__customer-name {
@@ -74,15 +73,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 .opinions__pages-icon {
   width: 12.4px;
   height: 11.84px;
 }
 .opinions__pages-item {
-  margin-top: 30px;
   margin-left: 9px;
   margin-right: 9px;
+  cursor: pointer;
+}
+.opinions__pages-item.dot:hover,
+.opinions__pages-item.dot:focus {
+  background-color: var(--dark-pink);
 }
 .dot {
   width: 12px;
@@ -90,6 +94,18 @@
   background-color: #d9d9d9;
   border-radius: 50%;
 }
+input {
+  visibility: hidden;
+}
+/*.slides {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#r1:checked {
+  visibility: hidden;
+}*/
 
 @media screen and (min-width: 768px) {
   .quote {
@@ -108,14 +124,13 @@
     }
   }
   .opinions__photo {
-    padding-top: 121px;
     padding-bottom: 19px;
   }
   .opinions__customer-name {
     font-size: 16px;
     line-height: 186%;
   }
-  .opinions__pages-item {
+  .opinions__pages {
     margin-top: 35px;
   }
 }
