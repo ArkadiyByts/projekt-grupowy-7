@@ -1,30 +1,37 @@
 <section class="opinions">
   <div class="opinions__container">
-   <!-- <picture class="opinions__customer-photo">
-      <source srcset="./images/customer1.png 1x, ./images/customer1@2x.png 2x" />
-       <source
-        srcset="./images/ice-cream-tablet.png 1x, ./images/ice-cream-tablet@2x.png 2x"
-        media="(min-width: 768px) and (max-width: 1279px)" />
-     />-->
-      <img class="opinions__photo" src="./images/customer1.png" alt="face"
-    /> 
-    </picture>
+    <!-- <div class="slides">
+      <div class="img1"> -->
+    <img class="opinions__photo" src="./images/customer1.png" alt="face" />
+    <!-- </div> -->
+    <!-- <div class="img2">
+        <img class="opinions__photo" src="./images/customer2.png" alt="face" />
+      </div>
+      <div class="img3">
+        <img class="opinions__photo" src="./images/customer3.png" alt="face" />
+      </div> 
+    </div>-->
     <div class="quote">
-    <div class="nullam">
-      <p class="nullam__p">
-        Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
-        nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
-      </p>
-    </div></div>
+      <div class="nullam">
+        <p class="nullam__p">
+          Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit
+          nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+        </p>
+      </div>
+    </div>
     <p class="opinions__customer-name">Emily, Los Angeles</p>
     <ul class="opinions__pages">
-        <li class="opinions__pages-item">          
-            <svg class="opinions__pages-icon">
-                <use href="./images/icons.svg#icon-home">
-                </use></svg></li>
-        <li class="opinions__pages-item dot"></li>
-        <li class="opinions__pages-item dot"></li>
-
+      <li class="opinions__pages-item">
+        <input type="radio" name="r1" checked />
+        <!-- ukryte pole radio -->
+        <svg class="opinions__pages-icon">
+          <use href="./images/icons.svg#icon-home"></use>
+        </svg>
+      </li>
+      <li class="opinions__pages-item dot"><input type="radio" name="r2" /></li>
+      <!-- ukryte pole radio -->
+      <li class="opinions__pages-item dot"><input type="radio" name="r3" /></li>
+      <!-- ukryte pole radio -->
     </ul>
   </div>
 </section>
