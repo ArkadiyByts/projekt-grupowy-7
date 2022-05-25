@@ -35,6 +35,14 @@
          flex-direction: column;
          list-style: none;
 
+         &__card {
+             display: flex;
+
+             &:not(:last-child) {
+                 margin-bottom: 130px;
+             }
+         }
+
          &__item {
              position: relative;
              display: flex;
@@ -93,10 +101,6 @@
                      background-repeat: no-repeat;
                  }
              }
-
-             &:not(:last-child) {
-                 margin-bottom: 130px;
-             }
          }
 
          &__heading {
@@ -124,22 +128,37 @@
          &__text {
              margin: 0;
              padding: 30px 40px;
+             max-height: 115px;
              font-size: 14px;
              font-weight: 700;
              font-family: var(--contact-font);
              letter-spacing: 0.04em;
              line-height: 1.52;
              text-align: center;
+             overflow: hidden;
              color: var(--txt-color);
+         }
+            
+         &__btn {
+            margin: 25px auto 5px auto;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            border-radius: 50%;
+            border: 4px solid transparent;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(/images/arrow-right.png);
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
+                &:hover,
+                &:focus {
+                    border: 5px solid var(--dark-pink);
+                }
+            }
 
-             &::after {
-                 content: '';
-                 margin: 20px auto;
-                 display: block;
-                 width: 40px;
-                 height: 40px;
-                 background-image: url(/images/arrow-right.png);
-             }
+        .grid__card.is-active .grid__text {
+            max-height: none;
         }
     }
 
@@ -160,15 +179,24 @@
      }
         
     .grid {
-        padding: 0 34px;
+        padding: 0;
         flex-direction: row;
         justify-content: center;
+
+        &__card {
+            margin-bottom: 112px;
+
+            &:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
 
         &__item {
             width: 220px;
 
             &--icecream {
                  &::before {
+                     top: -105px;
                      left: 0;
                      width: 220px;
                      height: 226px;
@@ -210,10 +238,11 @@
 
          &__text {
              padding: 30px 11px 40px 11px;
+             max-height: 141px;
+         }
 
-             &::after {
-                margin: 40px auto;
-             }
+         &__btn {
+            margin: 30px auto 5px auto;
          }
     }
 }
@@ -235,7 +264,11 @@
     }
 
     .grid {
-        padding: 0 116px;
+        &__card {
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
+        }
 
         &__item {
             width: 329px;
@@ -244,7 +277,7 @@
             &--icecream {
                 &::before {
                     top: -220px;
-                    left: -14px;
+                    left: -2px;
                     width: 335px;
                     height: 335px;
                     background-image: url(/images/product-1-335x335@1x.webp);
@@ -254,7 +287,7 @@
             &--icecoffee {
                 &::before {
                     top: -220px;
-                    left: -14px;
+                    left: -2px;
                     width: 337px;
                     height: 335px;
                     background-image: url(/images/product-2-337x335@1x.webp);
@@ -263,8 +296,8 @@
         
             &--milkshakes {
                 &::before {
-                    top: -215px;
-                    left: -14px;
+                    top: -212px;
+                    left: -2px;
                     width: 335px;
                     height: 335px;
                     background-image: url(/images/product-3-335x335@1x.webp);
@@ -286,14 +319,14 @@
 
         &__text {
             padding: 32px 44px 62px 44px;
-            // height: 106px;
+            max-height: 150px;
             font-size: 16px;
             line-height: 1.75;
-            overflow: hidden;
-
-            &::after {
-                margin: 30px auto;
-            }
         }
+            
+        &__btn {
+            margin: 30px auto 5px auto;
+        }
+        
     }
 }
