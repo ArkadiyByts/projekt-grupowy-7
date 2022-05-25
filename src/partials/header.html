@@ -1,4 +1,4 @@
-<header class="header">
+<header id="header-anchor" class="header">
   <div class="header__top">
     <a href="#" class="header__logo--link link"><img
       srcset="./images/logo.jpg 1x, ./images/logo@2x.jpg 2x"
@@ -7,11 +7,11 @@
       alt="logo"
     /></a>
     <nav class="header__nav">
-      <a href="#" class="header__link link">Home</a>
-      <a href="#" class="header__link link">About us</a>
-      <a href="#" class="header__link link">How it's made?</a>
-      <a href="#" class="header__link link">Our products</a>
-      <a href="#" class="header__link link">Contact</a>
+      <a href="#header-anchor" class="header__link link">Home</a>
+      <a href="#about-anchor" class="header__link link">About us</a>
+      <a href="#advantages-anchor" class="header__link link">How it's made?</a>
+      <a href="#products-anchor" class="header__link link">Our products</a>
+      <a href="#footer-anchor" class="header__link link">Contact</a>
     </nav>
     <button class="header__burger" type="button" data-menu-open>
       <svg class="header__burger--icon" width="20" height="12">
@@ -25,29 +25,91 @@
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
-      <button type="submit" class="menu__buy--btn">Buy now &#9;&gt;</button>
+      <button type="button" class="menu__buy--btn" data-modal-open>Buy now &#9;&gt;</button>
       <nav class="nav-menu">
         <ul class="nav-menu__list list">
           <li class="nav-menu__item">
-            <a class="nav-menu__link link" href="#">Home</a>
+            <a class="nav-menu__link link" href="#header-anchor">Home</a>
           </li>
           <li class="nav-menu__item">
-            <a class="nav-menu__link link" href="#">About us</a>
+            <a class="nav-menu__link link" href="#about-anchor">About us</a>
           </li>
           <li class="nav-menu__item">
-            <a class="nav-menu__link link" href="#">How it's made?</a>
+            <a class="nav-menu__link link" href="#advantages-anchor">How it's made?</a>
           </li>
           <li class="nav-menu__item">
-            <a class="nav-menu__link link" href="#">Our products</a>
+            <a class="nav-menu__link link" href="#products-anchor">Our products</a>
           </li>
           <li class="nav-menu__item">
-            <a class="nav-menu__link link" href="#">Contact</a>
+            <a class="nav-menu__link link" href="#footer-anchor">Contact</a>
           </li>
         </ul>
       <nav>
       </div>
     </div>
-    <button type="submit" class="header__btn--top">Buy now &#9;&gt;</button>
+    <button type="button" class="header__btn--top" data-modal-open>Buy now &#9;&gt;</button>
+    <div class="header__backdrop is-hidden" data-modal>
+      <div class="header__modal">
+        <button type="button" class="header__modal-close-btn" data-modal-close>
+          <svg class="header__modal-icon" width="14" height="14">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+        </button>
+        <h2 class="header__modal-title">To make a purchase leave your details </br> in the form below</h2>
+        <form class="header__modal-form" name="buy now form">
+          <label class="header__modal-label">
+            Name
+            <span class="header__modal-wrapper">
+              <input class="header__modal-input" type="text" name="user-name" />
+              <svg class="header__modal-form-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="header__modal-label">
+            Phone
+            <span class="header__modal-wrapper">
+              <input class="header__modal-input" type="tel" name="user-phone" />
+              <svg class="header__modal-form-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="header__modal-label">
+            Email
+            <span class="header__modal-wrapper">
+              <input class="header__modal-input" type="email" name="user-email" />
+              <svg class="header__modal-form-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="header__modal-order">
+            Order details
+            <textarea
+              class="header__modal-message"
+              name="user-order"
+            >
+            </textarea>
+          </label>
+          <div class="header__policy">
+            <input
+              id="user-policy"
+              type="checkbox"
+              class="header__policy--checkbox header__policy-visually-hidden"
+              name="policy"
+              value="accept-policy"
+            />
+            <label for="user-policy" class="header__policy-text">
+              I agree to the 
+              <a class="header__policy-text--link" href="#policy"
+                >Privacy Policy.</a>
+            </label>
+          </div>
+          <button type="submit" class="header__modal-btn">Submit your </br> order request</button>
+        </form>
+      </div>
+    </div>
   </div>
   <div class="header__bottom">
     <h1 class="header__title">

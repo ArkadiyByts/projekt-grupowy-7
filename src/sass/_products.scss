@@ -1,4 +1,4 @@
-   #products-title {
+   #products-anchor {
          padding-bottom: 15px;
          display: flex;
          font-size: 18px;
@@ -163,7 +163,7 @@
     }
 
  @media screen and (min-width: 768px) {
-     #products-title {
+     #products-anchor {
          font-size: 26px;
          line-height: 1.154;
      }
@@ -248,7 +248,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    #product-title {
+    #product-anchor {
         font-size: 30px;
     }
 
