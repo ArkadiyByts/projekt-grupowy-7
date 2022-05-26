@@ -2146,6 +2146,7 @@ li {
 
 .opinions__pages-input {
   visibility: hidden;
+  position: absolute;
 }
 
 /*.slides {
