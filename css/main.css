@@ -2210,11 +2210,26 @@ li {
   }
 }
 
+.location__btn--red,
+.location__btn--white {
+  position: relative;
+}
+
 .how-its-done__main__button--svgred {
   stroke: #fff;
 }
 
+.how-its-done__main__button--svg,
+.how-its-done__main__button--svgred {
+  position: absolute;
+  right: 10%;
+  top: 17px;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .how-its-done__main__button--svgred {
+    right: 4%;
+  }
   .section-location {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2374,9 +2389,9 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -2409,7 +2424,7 @@ li {
     font-weight: 700;
     color: #fff;
     stroke: #D41443;
-    margin: 86px 15px 0 0;
+    margin: 86px 0 0 0;
   }
   .location__btn--red > span {
     padding-right: 13px;
@@ -2435,13 +2450,11 @@ li {
     height: 44px;
     text-align: center;
     border-radius: 22px;
-    margin-left: auto;
-    margin-right: auto;
     font-family: var(--contact-font);
     font-weight: 700;
     color: #D41443;
     stroke: #D41443;
-    margin: 15px 0 0;
+    margin-top: 15px;
   }
   .location__btn--white > span {
     padding-right: 13px;
@@ -2622,6 +2635,7 @@ li {
     margin-bottom: 165px;
   }
   .location__btn--red {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2655,6 +2669,7 @@ li {
     padding-right: 13px;
   }
   .location__btn--white {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
