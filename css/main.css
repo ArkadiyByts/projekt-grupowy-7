@@ -324,7 +324,7 @@ li {
     margin-top: 12px;
     margin-right: 34px;
     position: absolute;
-    left: 95%;
+    left: 94%;
     top: 6%;
     -webkit-transform: translateY(-50%) translateX(-50%);
             transform: translateY(-50%) translateX(-50%);
@@ -332,8 +332,9 @@ li {
   .header__icon-trucks {
     margin-top: 13px;
     margin-right: 34px;
+    padding-right: 8px;
     position: absolute;
-    left: 95%;
+    left: 94%;
     top: 23%;
     -webkit-transform: translateY(-50%) translateX(-50%);
             transform: translateY(-50%) translateX(-50%);
@@ -2026,6 +2027,35 @@ li {
     padding-left: 0px;
     padding-right: 0px;
   }
+}
+
+.new {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider {
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .opinions__container {

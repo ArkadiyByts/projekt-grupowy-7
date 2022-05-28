@@ -1,3 +1,26 @@
+.new {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 800px;
+  height: 500px;
+  // border-radius: 10px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+
 .opinions__container {
   margin-bottom: 86px;
 }
