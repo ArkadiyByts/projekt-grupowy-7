@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://ArkadiyByts.github.io/projekt-grupowy-7",
+  "homepage": "https://github.com/endercom502/projekt-grupowy-7.git",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /projekt-grupowy-7/"
