@@ -38,6 +38,7 @@
     font-size: 18px;
     color: #FFA5BA;
     margin-bottom: 47px;
+    text-shadow: 1px 2px 2px rgba(212, 20, 67, 1);
     @media (min-width: 768px) {
             font-size: 26px;
         }
@@ -60,6 +61,7 @@
     font-size: 34px;
     max-width: 200px;
     text-align: center;
+    text-shadow: 2px 6px 2px rgba(255, 165, 186, 1);
     @media (min-width: 768px) {
         max-width: 429px;
         font-size: 48px;
@@ -193,6 +195,9 @@
     color: #D41443;
     margin-bottom: 39px;
     stroke: #D41443;
+    -webkit-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+        -moz-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+        box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
     & > span {
         padding-right: 13px;
     }

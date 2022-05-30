@@ -49,11 +49,13 @@
     margin-top: 137px;
     margin-bottom: 19px;
     margin-left: 20px;
+    font-weight: 400;
   }
 
   .header__title--span {
     font-size: 48px;
     line-height: 46px;
+    text-shadow: 2px 6px 2px rgba(255, 165, 186, 1);
   }
 
   .header__buttons {
@@ -66,6 +68,9 @@
     font-size: 8px;
     line-height: 10px;
     display: inline-flex;
+    -webkit-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+      -moz-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+      box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
   }
 
   .header__buttons--link:nth-child(1) {
@@ -165,6 +170,9 @@
     margin-top: 38px;
     cursor: pointer;
     height: 44px;
+    -webkit-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+      -moz-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+      box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
   }
 
   .header__btn--top:hover,
@@ -183,11 +191,13 @@
     margin-top: 15px;
     margin-bottom: 20px;
     margin-left: 34px;
+    font-weight: 400;
   }
 
   .header__title--span {
     font-size: 34px;
     line-height: 31px;
+    text-shadow: 2px 6px 2px rgba(255, 165, 186, 1);
   }
 
   .header__buttons {
@@ -379,6 +389,9 @@
     margin-top: 38px;
     cursor: pointer;
     height: 44px;
+    -webkit-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+      -moz-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+      box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
   }
 
   .header__btn--top:hover,
@@ -397,11 +410,13 @@
     margin-top: 84px;
     margin-bottom: 25px;
     margin-left: 115px;
+    font-weight: 400;
   }
 
   .header__title--span {
     font-size: 58px;
     line-height: 52px;
+    text-shadow: 2px 6px 2px rgba(255, 165, 186, 1);
   }
 
   .header__buttons {
@@ -553,10 +568,12 @@
   text-transform: uppercase;
   color: var(--txt-color);
   z-index: 3;
+  font-weight: 400;
 }
 
 .header__title--span {
   color: var(--dark-pink);
+  text-shadow: 2px 6px 2px rgba(255, 165, 186, 1);
 }
 
 .header__buttons {
@@ -575,6 +592,9 @@
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  -webkit-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+    -moz-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+    box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
 }
 
 .header__btn {

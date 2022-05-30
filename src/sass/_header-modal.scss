@@ -126,24 +126,33 @@
 }
 
 .header__modal-btn {
-  font-family: var(--contact-font);
+  font-family: 'DM Sans';
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   letter-spacing: 0.06em;
-  width: 160px;
+  width: 166px;
   height: 40px;
-  background-color: var(--dark-pink);
-  color: var(--txt-color);
-  font-weight: 700;
-  font-size: 12px;
+  background-color: #FFFFFF;
+  color: #D41342;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 14px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 20px;
   border-style: none;
   margin: 5px auto;
   cursor: pointer;
+  -webkit-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+    -moz-box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+    box-shadow: 6px 13px 23px -11px rgba(212, 20, 67, 1);
+  &:hover {
+      cursor: pointer;
+      background-color: #D41342;
+      color: #FFFFFF;
+      stroke: #D41342;
+    }
 }
 
 .header__policy-visually-hidden {

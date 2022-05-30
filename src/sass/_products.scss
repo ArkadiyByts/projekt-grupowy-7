@@ -7,6 +7,7 @@
          justify-content: center;
          text-transform: uppercase;
          color: var(--light-pink);
+        text-shadow: 1px 2px 2px rgba(212, 20, 67, 1);
      }
 
      .products-section {
@@ -25,6 +26,7 @@
              justify-content: center;
              text-transform: uppercase;
              color: var(--dark-pink);
+            text-shadow: 2px 6px 2px rgba(255, 165, 186, 1);
          }
      }
 
@@ -50,6 +52,7 @@
              width: 280px;
              height: 485px;
              border-radius: 24px;
+            box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.16);
 
              &--icecream {
                  background: var(--icecream-bg);
@@ -107,12 +110,14 @@
              margin-top: 161px;
              margin-bottom: 0;
              font-size: 20px;
-             font-family: var(--txt-font);
+             font-family: 'Titan One';
+             font-weight: 400;
              line-height: 1.15;
              letter-spacing: 0.04em;
              text-align: center;
              text-transform: uppercase;
              color: var(--txt-color);
+            text-shadow: 3px 0px 6px rgba(23, 34, 76, 1);
 
              &::after {
                  content: '';
@@ -137,6 +142,7 @@
              text-align: center;
              overflow: hidden;
              color: var(--txt-color);
+            text-shadow: -2px 3px 5px rgba(23, 34, 76, 1);
          }
             
          &__btn {
@@ -233,6 +239,7 @@
 
              &::after {
                 margin-top: 30px;
+    
              }
          }
 
@@ -260,6 +267,7 @@
             padding-bottom: 260px;
             font-size: 58px;
             line-height: 1.138;
+            text-shadow: 2px 6px 2px rgba(255, 165, 186, 1);
         }
     }
 
@@ -322,6 +330,7 @@
             max-height: 150px;
             font-size: 16px;
             line-height: 1.75;
+            text-shadow: 2px 6px 2px rgba(255, 165, 186, 1);
         }
             
         &__btn {
